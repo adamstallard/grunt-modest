@@ -1,0 +1,12 @@
+test
+nbproject
+.hgignore
+.gitignore
+npm-debug.log
+.idea
+test
+Gruntfile.js
+.jshintrc
+.travis.yml
+test-src
+test-dest
