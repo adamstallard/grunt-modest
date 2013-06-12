@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/goalzen/grunt-modest.png)](https://travis-ci.org/goalzen/grunt-modest)
 
-Grunt task for working with the modest templating engine
+Grunt task for working with the [modest templating engine](https://github.com/goalzen/modest).
 
 ###Installation
 
