@@ -1,6 +1,6 @@
 {
   "name" : "grunt-modest",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "description" : "Grunt tasks for working with the modest templating engine",
   "keywords" : ["modest", "templating", "template", "grunt", "task", "gruntplugin"],
   "author" : {

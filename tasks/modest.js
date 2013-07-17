@@ -6,7 +6,8 @@ module.exports = function(grunt){
   
   grunt.registerMultiTask('modest', 'Commands for working with the modest templating engine.', function(){
     var params = {
-      dirs : this.files[0].src
+      dirs : this.filesSrc,
+      callback : this.async
     };
     modest.compile(params);
   });
