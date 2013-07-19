@@ -3,8 +3,7 @@
 var modest = require('modest');
 
 module.exports = function(grunt){
-  
-  grunt.registerMultiTask('modest', 'Commands for working with the modest templating engine.', function(){
+  grunt.registerMultiTask('modest', 'Process directories using the modest templating engine.', function(){
     var params = {
       dirs : this.filesSrc,
       callback : this.async()
