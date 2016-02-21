@@ -1,44 +1,51 @@
 {
-  "name" : "grunt-modest",
-  "version" : "0.1.2",
-  "description" : "Grunt tasks for working with the modest templating engine",
-  "keywords" : ["modest", "templating", "template", "grunt", "task", "gruntplugin"],
-  "author" : {
-    "name" : "Adam Stallard",
-    "email" : "adam@goalzen.org",
-    "url" : "goalzen.org"
+  "name": "grunt-modest",
+  "version": "0.1.2",
+  "description": "Grunt tasks for working with the modest templating engine",
+  "keywords": [
+    "modest",
+    "templating",
+    "template",
+    "grunt",
+    "task",
+    "gruntplugin"
+  ],
+  "author": {
+    "name": "Adam Stallard",
+    "email": "adam@goalzen.org",
+    "url": "goalzen.org"
   },
-  "directories" : {
-    "test" : "test"
+  "directories": {
+    "test": "test"
   },
-  "dependencies" : {
-    "modest" : ">=1.20.0"
+  "dependencies": {
+    "modest": ">=1.20.0"
   },
-  "devDependencies" : {
-    "grunt-vows-runner" : "*",
-    "grunt-contrib-jshint" : "*",
-    "chai" : "*",
-    "underscore" : "*"
+  "devDependencies": {
+    "grunt-vows-runner": "*",
+    "grunt-contrib-jshint": "*",
+    "chai": "*",
+    "underscore": "*"
   },
-  "peerDependencies" : {
-    "grunt" : "~0.4"
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
   },
-  "license" : {
-    "type" : "MIT",
-    "url" : "https://github.com/goalzen/grunt-modest/blob/master/LICENSE-MIT"
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/goalzen/grunt-modest/blob/master/LICENSE-MIT"
   },
-  "engines" : {
-    "node" : ">=0.7.1"
+  "engines": {
+    "node": ">=0.7.1"
   },
-  "scripts" : {
-    "test" : "grunt"
+  "scripts": {
+    "test": "grunt"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/goalzen/grunt-modest.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goalzen/grunt-modest.git"
   },
-  "bugs" : {
-    "url" : "https://github.com/goalzen/grunt-modest/issues"
+  "bugs": {
+    "url": "https://github.com/goalzen/grunt-modest/issues"
   },
-  "homepage" : "https://github.com/goalzen/grunt-modest.git"
+  "homepage": "https://github.com/goalzen/grunt-modest.git"
 }
